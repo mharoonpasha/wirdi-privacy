@@ -4,11 +4,11 @@ title: Privacy Policy - Wirdi
 ---
 # Privacy Policy for Wirdi
 
-**Last Updated: April 12, 2026**
+**Last Updated: April 20, 2026**
 
 ## Introduction
 
-Wirdi ("we", "our", or "the app") is an iOS application designed to help users track their Islamic spiritual activities including Zikr, Quran reading, and Nafal prayers. This Privacy Policy explains how we collect, use, and protect your information.
+Wirdi ("we", "our", or "the app") is a mobile application available for iOS and Android designed to help users track their Islamic spiritual activities including Zikr, Quran reading, and Nafal prayers. This Privacy Policy explains how we collect, use, and protect your information. Both version share the same backend and the same data practices, which are described in this policy.
 
 ## Information We Collect
 
@@ -50,6 +50,8 @@ We use the following third-party services:
 | Cloud Firestore | Data storage | [Google Privacy Policy](https://policies.google.com/privacy) |
 | Firebase Cloud Messaging | Push notifications | [Google Privacy Policy](https://policies.google.com/privacy) |
 | Apple StoreKit | In-app purchases and subscriptions | [Apple Privacy Policy](https://www.apple.com/privacy/) |
+| Firebase Analytics | Anonymous usage analytics (sign-in events, activity creation, purchase events) to understand feature usage. Operated by Google LLC. |
+| Firebase Crashlytics | Automatic crash reporting and error diagnostics. Collects stack traces and device information when the app crashes. Operated by Google LLC. |
 
 ## Data Sharing
 
@@ -73,6 +75,9 @@ Payment processing is handled entirely by Apple. We do not collect or store any 
 - Your account will be charged for renewal within 24 hours prior to the end of the current period
 - You can manage and cancel subscriptions in your Apple ID Account Settings
 - Any unused portion of a free trial period will be forfeited upon purchase of a subscription
+
+## Google Play Billing (Andriod users)
+- For Android users, subscriptions and in-app purchases are processed through Google Play Billing. Your payment method is handled entirely by Google — Wirdi does not receive, store, or process any credit card or banking information. Subscription management, cancellation, and refunds are handled through the Google Play Store app.
 
 ## Data Retention
 
