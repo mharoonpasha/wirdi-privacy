@@ -8,7 +8,7 @@ title: Privacy Policy - Wirdi
 
 ## Introduction
 
-Wirdi ("we", "our", or "the app") is a mobile application available for iOS and Android designed to help users track their Islamic spiritual activities including Zikr, Quran reading, and Nafal prayers. This Privacy Policy explains how we collect, use, and protect your information. Both version share the same backend and the same data practices, which are described in this policy.
+Wirdi ("we", "our", or "the app") is a mobile application available for iOS and Android designed to help users track their Islamic spiritual activities including Zikr, Quran reading, and Nafal prayers. This Privacy Policy explains how we collect, use, and protect your information. Both versions share the same backend and the same data practices, which are described in this policy.
 
 ## Information We Collect
 
@@ -52,6 +52,7 @@ We use the following third-party services:
 | Apple StoreKit | In-app purchases and subscriptions | [Apple Privacy Policy](https://www.apple.com/privacy/) |
 | Firebase Analytics | Anonymous usage analytics (sign-in events, activity creation, purchase events) to understand feature usage. Operated by Google LLC. |
 | Firebase Crashlytics | Automatic crash reporting and error diagnostics. Collects stack traces and device information when the app crashes. Operated by Google LLC. |
+| Google Play Billing | Payment processing for Android users. Handles subscriptions (monthly/yearly/lifetime) and in-app tips. Operated by Google LLC. Wirdi receives only anonymized purchase receipts — no payment card data. |
 
 ## Data Sharing
 
@@ -66,17 +67,17 @@ Wirdi offers optional in-app purchases:
 - **Wirdi Pro** subscriptions (Monthly, Yearly) and Lifetime unlock
 - **Voluntary contributions** (tips)
 
-Payment processing is handled entirely by Apple. We do not collect or store any payment or financial information.
+Payment processing is handled entirely by Apple (iOS) or Google (Android). Wirdi does not receive, store, or process any credit card or banking information.
 
 ## Subscriptions
 
 - Wirdi Pro Monthly ($2.99/month) and Yearly ($19.99/year) subscriptions auto-renew unless cancelled at least 24 hours before the end of the current period
-- Payment is charged to your Apple ID account at confirmation of purchase
+- Payment is charged to your Apple ID account (iOS) or Google Play account (Android) at confirmation of purchase
 - Your account will be charged for renewal within 24 hours prior to the end of the current period
-- You can manage and cancel subscriptions in your Apple ID Account Settings
+- You can manage and cancel subscriptions in your Apple ID Account Settings (iOS) or in the Google Play Store -> Subscriptions (Android)
 - Any unused portion of a free trial period will be forfeited upon purchase of a subscription
 
-## Google Play Billing (Andriod users)
+## Google Play Billing (Android users)
 - For Android users, subscriptions and in-app purchases are processed through Google Play Billing. Your payment method is handled entirely by Google — Wirdi does not receive, store, or process any credit card or banking information. Subscription management, cancellation, and refunds are handled through the Google Play Store app.
 
 ## Data Retention
