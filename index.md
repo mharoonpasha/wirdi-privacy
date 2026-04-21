@@ -4,7 +4,7 @@ title: Privacy Policy - Wirdi
 ---
 # Privacy Policy for Wirdi
 
-**Last Updated: April 20, 2026**
+**Last Updated: April 21, 2026**
 
 ## Introduction
 
@@ -20,7 +20,6 @@ When you create an account, we collect:
 ### Usage Data
 - **Activity data** — worship activities you create, including type, target counts, and progress
 - **Social data** — friends list and activity invitations
-- **Chat messages** — messages exchanged with friends within the app
 
 ### Device Information
 - **Push notification token** — used to deliver notifications about friend requests and activity updates (only if you grant permission)
@@ -30,7 +29,7 @@ When you create an account, we collect:
 We use your information solely to:
 - Provide and maintain the app's functionality
 - Authenticate your account
-- Enable social features (friends, shared activities, chat)
+- Enable social features (friends, shared activities)
 - Send push notifications about friend requests and activity updates
 - Display your progress and leaderboard standings to activity participants
 
