@@ -44,11 +44,10 @@ There is no "undo." Once you confirm deletion, the account cannot be recovered. 
 
 If you're unable to delete your account from within the app (for example, you've lost access to the device, or forgotten your password), email us at:
 
-**mharoonpasha@hotmail.com**
-**muhammadharoondev601@gmail.com**
+**support@codeforios.com**
 
 Please include the email address associated with the account. We will verify your identity and process the deletion within **7 business days**.
 
 ---
 
-_Last updated: April 21, 2026_
+_Last updated: April 27, 2026_
