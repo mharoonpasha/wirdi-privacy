@@ -4,7 +4,7 @@ title: Privacy Policy - Wirdi
 ---
 # Privacy Policy for Wirdi
 
-**Last Updated: April 21, 2026**
+**Last Updated: April 27, 2026**
 
 ## Introduction
 
@@ -104,4 +104,4 @@ We may update this Privacy Policy from time to time. We will notify users of any
 
 If you have any questions or concerns about this Privacy Policy or your data, please contact us at:
 
-**Email:** mharoonpasha@hotmail.com
+**Email:** support@codeforios.com
