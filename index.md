@@ -31,7 +31,7 @@ When you create an account, we collect:
 - **Email addresses from your device contacts** — used only when you tap "Find friends from contacts" inside the app and grant Contacts permission. Wirdi reads your contacts on-device, extracts only their email addresses, and queries our user database (Cloud Firestore) to identify which of those emails belong to existing Wirdi users.
 - **What we never upload**: your contact list, contact names, phone numbers, photos, or any other contact fields are never sent to our servers.
 - **What we never store**: queried emails are used as transient query parameters only. We do not retain a copy of the emails or your contact list after the match completes.
-- You can revoke contacts permission at any time in iOS Settings → Wirdi → Contacts. 
+- You can revoke contacts permission at any time in iOS Settings → Wirdi → Contacts.
 
 ## How We Use Your Information
 
