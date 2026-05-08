@@ -4,11 +4,11 @@ title: Privacy Policy - Wirdi
 ---
 # Privacy Policy for Wirdi
 
-**Last Updated: April 27, 2026**
+**Last Updated: May 09, 2026**
 
 ## Introduction
 
-Wirdi ("we", "our", or "the app") is a mobile application available for iOS and Android designed to help users track their Islamic spiritual activities including Zikr, Quran reading, and Nafal prayers. This Privacy Policy explains how we collect, use, and protect your information. Both versions share the same backend and the same data practices, which are described in this policy.
+Wirdi ("we", "our", or "the app") is a mobile application available for iOS designed to help users track their Islamic spiritual activities including Zikr, Quran reading, and Nafal prayers. This Privacy Policy explains how we collect, use, and protect your information.
 
 ## Information We Collect
 
@@ -24,6 +24,15 @@ When you create an account, we collect:
 ### Device Information
 - **Push notification token** — used to deliver notifications about friend requests and activity updates (only if you grant permission)
 
+### Location
+- **Approximate location (latitude/longitude)** — used to calculate prayer times for your area and the Qibla direction. Location is requested only when you grant permission and is processed primarily on your device. We do not store your location on our servers; it is sent only to the public Aladhan prayer-times API to compute prayer schedules, with no user identifier attached.
+
+### Contacts (Optional, for Friend Discovery)
+- **Email addresses from your device contacts** — used only when you tap "Find friends from contacts" inside the app and grant Contacts permission. Wirdi reads your contacts on-device, extracts only their email addresses, and queries our user database (Cloud Firestore) to identify which of those emails belong to existing Wirdi users.
+- **What we never upload**: your contact list, contact names, phone numbers, photos, or any other contact fields are never sent to our servers.
+- **What we never store**: queried emails are used as transient query parameters only. We do not retain a copy of the emails or your contact list after the match completes.
+- You can revoke contacts permission at any time in iOS Settings → Wirdi → Contacts. 
+
 ## How We Use Your Information
 
 We use your information solely to:
@@ -31,6 +40,8 @@ We use your information solely to:
 - Authenticate your account
 - Enable social features (friends, shared activities)
 - Send push notifications about friend requests and activity updates
+- Calculate prayer times and the Qibla direction based on your approximate location
+- Match your device contacts (with your permission) against existing Wirdi users so you can connect with friends who already use the app
 - Display your progress and leaderboard standings to activity participants
 
 ## Data Storage and Security
@@ -48,10 +59,8 @@ We use the following third-party services:
 | Firebase Authentication | User sign-in and account management | [Google Privacy Policy](https://policies.google.com/privacy) |
 | Cloud Firestore | Data storage | [Google Privacy Policy](https://policies.google.com/privacy) |
 | Firebase Cloud Messaging | Push notifications | [Google Privacy Policy](https://policies.google.com/privacy) |
+| Aladhan API | Prayer time and Qibla calculations | Public API; only latitude/longitude is sent — no user identifier |
 | Apple StoreKit | In-app purchases and subscriptions | [Apple Privacy Policy](https://www.apple.com/privacy/) |
-| Firebase Analytics | Anonymous usage analytics (sign-in events, activity creation, purchase events) to understand feature usage. Operated by Google LLC. |
-| Firebase Crashlytics | Automatic crash reporting and error diagnostics. Collects stack traces and device information when the app crashes. Operated by Google LLC. |
-| Google Play Billing | Payment processing for Android users. Handles subscriptions (monthly/yearly/lifetime) and in-app tips. Operated by Google LLC. Wirdi receives only anonymized purchase receipts — no payment card data. |
 
 ## Data Sharing
 
@@ -66,18 +75,15 @@ Wirdi offers optional in-app purchases:
 - **Wirdi Pro** subscriptions (Monthly, Yearly) and Lifetime unlock
 - **Voluntary contributions** (tips)
 
-Payment processing is handled entirely by Apple (iOS) or Google (Android). Wirdi does not receive, store, or process any credit card or banking information.
+Payment processing is handled entirely by Apple. Wirdi does not receive, store, or process any credit card or banking information.
 
 ## Subscriptions
 
 - Wirdi Pro Monthly ($2.99/month) and Yearly ($19.99/year) subscriptions auto-renew unless cancelled at least 24 hours before the end of the current period
-- Payment is charged to your Apple ID account (iOS) or Google Play account (Android) at confirmation of purchase
+- Payment is charged to your Apple ID account at confirmation of purchase
 - Your account will be charged for renewal within 24 hours prior to the end of the current period
-- You can manage and cancel subscriptions in your Apple ID Account Settings (iOS) or in the Google Play Store -> Subscriptions (Android)
+- You can manage and cancel subscriptions in your Apple ID Account Settings
 - Any unused portion of a free trial period will be forfeited upon purchase of a subscription
-
-## Google Play Billing (Android users)
-- For Android users, subscriptions and in-app purchases are processed through Google Play Billing. Your payment method is handled entirely by Google — Wirdi does not receive, store, or process any credit card or banking information. Subscription management, cancellation, and refunds are handled through the Google Play Store app.
 
 ## Data Retention
 
